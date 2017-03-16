@@ -34,3 +34,10 @@ public class TestActivity extends AppCompatActivity {
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_gravity="center"/>
+
+
+# 使用依赖库的形式
+[依赖库网址](https://github.com/lichmeng/myijkplayer.git)
+
+[![](https://jitpack.io/v/lichmeng/myijkplayer.svg)](https://jitpack.io/#lichmeng/myijkplayer)
+

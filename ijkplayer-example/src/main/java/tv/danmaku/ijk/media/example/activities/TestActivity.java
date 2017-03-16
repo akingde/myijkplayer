@@ -17,7 +17,6 @@ import tv.danmaku.ijk.media.player.IjkMediaPlayer;
 
 public class TestActivity extends AppCompatActivity {
 
-
     private AndroidMediaController mMediaController;
     private IjkVideoView mVideoView;
     String mVideoPath = "rtmp://live.hkstv.hk.lxdns.com/live/hks";
@@ -31,9 +30,7 @@ public class TestActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
 
         setContentView(R.layout.activity_test);
-
         mMediaController = new AndroidMediaController(this, false);
-
         // init player
         IjkMediaPlayer.loadLibrariesOnce(null);
         IjkMediaPlayer.native_profileBegin("libijkplayer.so");

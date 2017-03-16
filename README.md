@@ -3,8 +3,8 @@
 将该库以module或library的形式导入,或打包成jar或aar的形式进行集成.
 参考记录<项目中集成ijkplayer官方demo>
 
-基本使用:
-Activity中:
+# 基本使用:
+## Activity中:
 
 public class TestActivity extends AppCompatActivity {
 
@@ -28,17 +28,9 @@ public class TestActivity extends AppCompatActivity {
     }
 }
 
-布局文件中:
-
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical" android:layout_width="match_parent"
-    android:layout_height="match_parent">
-
+## 布局文件中:
     <tv.danmaku.ijk.media.example.widget.media.IjkVideoView
         android:id="@+id/video_view_test"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_gravity="center"/>
-
-</LinearLayout>

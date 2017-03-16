@@ -1,0 +1,4 @@
+# myijkplayer
+自己编译的安卓源码,修改直播缓冲,去掉-example中无用的activity,fragment,及资源文件,精简arm平台库并将其以jnilibs文件夹的形式将.so文件添加到-example中;方便将其集成到其他的工程中.
+将该库以module或library的形式导入,或打包成jar或aar的形式进行集成.
+参考记录<项目中集成ijkplayer官方demo>

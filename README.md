@@ -5,6 +5,7 @@
 
 基本使用:
 Activity中:
+
 public class TestActivity extends AppCompatActivity {
 
     private AndroidMediaController mMediaController;
@@ -28,6 +29,7 @@ public class TestActivity extends AppCompatActivity {
 }
 
 布局文件中:
+
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical" android:layout_width="match_parent"

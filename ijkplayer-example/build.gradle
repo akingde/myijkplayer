@@ -1,4 +1,4 @@
-apply plugin: 'com.android.application'
+apply plugin: 'com.android.library'
 
 android {
     // http://tools.android.com/tech-docs/new-build-system/tips
@@ -11,7 +11,6 @@ android {
         abortOnError false
     }
     defaultConfig {
-        applicationId "tv.danmaku.ijk.media.example"
         minSdkVersion 9
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode rootProject.ext.versionCode
